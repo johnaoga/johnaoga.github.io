@@ -3320,15 +3320,29 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 736px) {
-
-			#nav {
+			#nav ul li.sc4{
+				display: none;
+			}
+		}
+		@media screen and (max-width: 480px) {
+			#nav ul li.sc3{
 				display: none;
 			}
 
-				#nav + #main {
-					padding-top: 0;
-				}
-
+		}
+		@media screen and (max-width: 360px) {
+			#nav ul li.sc2{
+				display: none;
+			}
+		}
+		@media screen and (max-width: 250px) {
+			#nav {
+				display: none;
+			}
+			
+			#nav + #main {
+				padding-top: 0;
+			}
 		}
 
 /* Main */
