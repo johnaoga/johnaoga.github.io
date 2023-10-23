@@ -3797,3 +3797,40 @@ input, select, textarea {
 			}
 
 		}
+		
+/* pub icon */
+
+.pub strong, .pub span {
+				font-size: 1.5em;
+			}
+
+	@media screen and (max-width: 480px) {
+		.pub strong, .pub span {
+			font-size: 1em;
+		}
+	}
+	
+.publogo img {
+	height: 1.5em;
+}
+
+.publogo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+		@media screen and (max-width: 480px) {
+
+			.publogo img {
+				height: 1em;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			.publogo img {
+				height: 0.75em;
+			}
+
+		}
