@@ -3834,3 +3834,54 @@ input, select, textarea {
 			}
 
 		}
+		
+		
+.projlogo img {
+	height: 5em;
+}
+
+.projlogo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+		@media screen and (max-width: 480px) {
+
+			.projlogo img {
+				height: 3em;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			.projlogo img {
+				height: 2em;
+			}
+
+		}
+		
+.cp4dm img {
+	height: 2.2em;
+}
+		@media screen and (max-width: 480px) {
+
+			.cp4dm img {
+				height: 1.2em;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+			.cp4dm img {
+				height: 0.8em;
+			}
+
+
+		}
+		
+/*Other*/
+
+.warningclass {
+	color: red;
+}
